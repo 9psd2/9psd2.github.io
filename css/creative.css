@@ -43,6 +43,12 @@ a {
     transition: all .35s;
 }
 
+.project-info {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-size: 22px;
+    color: #FFBE42;
+}
+
 a:hover,
 a:focus {
     color: #8e0103;
