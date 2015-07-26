@@ -85,6 +85,7 @@
 				countdown.removeClass('animated bounceIn');
 			});
 		}
+		
 
 		/* ---------------------------------------------- /*
 		 * Subscribe form ajax
