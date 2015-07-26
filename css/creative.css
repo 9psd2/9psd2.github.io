@@ -309,9 +309,13 @@ header .header-content .header-content-inner p {
     color: #fff;
     opacity: 0;
     background: rgba(142,1,3,.9);
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    background: -webkit-linear-gradient(left top, #FFBE42, rgba(142,1,3,.9), black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #FFBE42, rgba(142,1,3,.9), black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #FFBE42, rgba(142,1,3,.9), black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #FFBE42, rgba(142,1,3,.9), black); /* Standard syntax (must be last) */
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
