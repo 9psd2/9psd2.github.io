@@ -90,7 +90,11 @@ footer {
     color: rgba(255,255,255,.75);
 }
 
-section {
+section#media {
+    padding: 50px 0;
+}
+
+section#bio {
     padding: 100px 0;
 }
 
@@ -287,7 +291,6 @@ header .header-content .header-content-inner p {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 650px;
 }
 
 .portfolio-box .portfolio-box-caption {

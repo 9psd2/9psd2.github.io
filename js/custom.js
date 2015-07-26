@@ -17,9 +17,14 @@
 		/* ---------------------------------------------- */
 
 		$.backstretch([
+			
 			'img/bg2.jpg',
+			/*
 			'img/bg3.jpg',
-			'img/bg1.jpg'
+			'img/bg1.jpg',
+			'img/header3.jpg'
+			*/
+			
 			/*add more images to become slideshow*/
 		], {duration: 4000, fade: 850});
 		
