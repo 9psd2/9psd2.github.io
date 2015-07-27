@@ -32,7 +32,7 @@ a::visited {
 	text-decoration: none;
 }
 #music {
-	background-color: #FFF;
+	background-color: #fff;
 	padding-top: 50px;
 }
 #media {
@@ -130,7 +130,7 @@ h1, h2, h3, h4 {
 	margin: 0 0 15px;
 }
 
-h1 { font-size: 46px; margin: 0 0 25px; }
+h1 { font-size: 46px; margin-top: 100px; }
 
 h2 { font-size: 42px; color: #242424; }
 
@@ -173,7 +173,7 @@ h4 { font-size: 18px; }
 /* Intro section
 ------------------------------------------------- */
 .intro {
-	background-color: rgba(0, 0, 0, 0) !important;
+	background-color: rgba(0, 0, 0, .3) !important;
 	/*background-image: url("../images/bg.png")!important;*/
 	z-index: auto !important;
 	color: #FFF;
@@ -191,7 +191,8 @@ h4 { font-size: 18px; }
 
 .i_header {
 	font-size: 20px;
-	margin: 0 0 25px;
+	margin: 50px 50px;
+	vertical-align: middle;
 }
 
 .i_cicle {
