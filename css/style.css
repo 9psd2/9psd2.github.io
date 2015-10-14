@@ -251,6 +251,22 @@ h4 { font-size: 18px; }
 			transform: rotate(45deg);
 }
 
+/* Merch
+------------------------------------------------- */
+#merch {
+	padding: 90px;
+	background-color: rgba(255, 255, 255, .95) !important;
+
+}
+
+#merch h3 {
+	text-align: center;
+}
+
+#merch form {
+	
+}
+
 /* Footer
 ------------------------------------------------- */
 .footer, .footer h2, .footer h3 {
