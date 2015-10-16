@@ -30,6 +30,29 @@ hr.light {
 
 hr.bio {
     max-width: 100%;
+    clear: both;
+    float: none;
+    width: 100%;
+    height: 2px;
+    margin: 1.4em 0;
+    border: none;
+    background: #000;
+    background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    right bottom,
+    color-stop(0, rgb(142,1,3)),
+    color-stop(0.5, rgb(255,190,66)),
+    color-stop(0.5, rgb(255,190,66)),
+    color-stop(1, rgb(142,1,3))
+    );
+    background-image: -moz-linear-gradient(
+    left center,
+    rgb(142,1,3) 0%,
+    rgb(255,190,66) 50%,
+    rgb(255,190,66) 50%,
+    rgb(142,1,3) 100%
+    );
 }
 
 .submit:focus {
