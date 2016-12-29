@@ -18,7 +18,7 @@
 
 		$.backstretch([
 			
-			'img/bg2.jpg',
+			'img/bg2017.jpg',
 			/*
 			'img/bg3.jpg',
 			'img/bg1.jpg',
